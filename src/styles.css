@@ -1,0 +1,47 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.form input {
+  margin-left: 10px;
+}
+
+input {
+  border: none;
+  background-color: whitesmoke;
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+
+button {
+  padding: 15px;
+  border: none;
+  width: 250px;
+  margin: 10px;
+  border-radius: 8px;
+  background-color: lightslategray;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: lightsteelblue;
+}
+
+.message {
+  background-color: turquoise;
+  padding: 15px;
+  border: none;
+  width: 170px;
+  margin: 10px auto;
+  border-radius: 8px;
+  color: white;
+}
